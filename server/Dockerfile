@@ -11,3 +11,5 @@ RUN npm i
 COPY . .
 
 CMD [ "node", "server.js" ]
+
+EXPOSE 8555
